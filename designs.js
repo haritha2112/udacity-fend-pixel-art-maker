@@ -4,7 +4,6 @@
 // When size is submitted by the user, call makeGrid()
 
 function makeGrid() {
-
   const body = document.body;
 
   const gridHeight = document.getElementById("inputHeight").value;
@@ -24,3 +23,14 @@ function makeGrid() {
   table.appendChild(tableBody);
   body.appendChild(table);
 }
+
+const selectedColor = document.getElementById("colorPicker");
+const table = document.getElementById("pixelCanvas");
+
+table.addEventListener("click", 
+function(e) {
+  if(e.target && e.target.nodeName == "TD") {
+    e.target.bgColor = selectedColor.value;
+  }
+});
+
