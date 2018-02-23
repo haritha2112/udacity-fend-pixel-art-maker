@@ -1,12 +1,10 @@
-# Pixel Art Maker Project
+# Trading Cards
 
-## About
+# About 
+This is a simple pixel art maker where you can create your own pixel art of any size and color. 
 
-This is a simple pixel art maker where you can create your own pixel art of any size and color.
+# Tech Stack
 
-## Tech Stack
-
--HTML5
--CSS3
--Javasctipt
-
+  - HTML5
+  - CSS3
+  - JavaScript
